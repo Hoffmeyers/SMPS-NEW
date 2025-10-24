@@ -58,7 +58,92 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|226795000|66752381|d2edf1c5-812e-4f86-bd52-3fa79c1ee3ec|d9487dc4-5781-4920-bc7a-07df71bbf9eb",
+          ""
+        ],
+        [
+          "courtyards_overlap|227598938|65513951|5edb7a13-52cf-4cbe-8c9f-22419813e750|d2edf1c5-812e-4f86-bd52-3fa79c1ee3ec",
+          ""
+        ],
+        [
+          "solder_mask_bridge|228012750|45500000|04b21da6-6c9e-4692-83c3-fbddcfc9c121|0a0ae9a7-9812-4eb9-a95c-f5d30e61b7a9",
+          ""
+        ],
+        [
+          "solder_mask_bridge|228012750|46405000|04b21da6-6c9e-4692-83c3-fbddcfc9c121|3a4a59ae-dede-41ce-9887-a0a0d1d36510",
+          ""
+        ],
+        [
+          "solder_mask_bridge|228037750|73745000|360d833f-01bb-49d2-8d75-d08e621efe90|78215b13-ad45-4e3f-8fab-ab400e78d474",
+          ""
+        ],
+        [
+          "solder_mask_bridge|228037750|74650000|360d833f-01bb-49d2-8d75-d08e621efe90|e1c6ac67-0a74-4760-84b9-27d4aea4f3ea",
+          ""
+        ],
+        [
+          "solder_mask_bridge|229225000|44812750|04b21da6-6c9e-4692-83c3-fbddcfc9c121|b89849d9-5061-407c-b1ec-c4ffeb513652",
+          ""
+        ],
+        [
+          "solder_mask_bridge|229225000|44812750|04b21da6-6c9e-4692-83c3-fbddcfc9c121|c05185e8-7fb4-4de7-932a-532ca1de6c4d",
+          ""
+        ],
+        [
+          "solder_mask_bridge|229225000|47197250|04b21da6-6c9e-4692-83c3-fbddcfc9c121|63e120ce-3040-4b47-9af0-2f5ec2bbd19d",
+          ""
+        ],
+        [
+          "solder_mask_bridge|229250000|72952750|360d833f-01bb-49d2-8d75-d08e621efe90|f70e5152-9cfc-419a-827c-fe1b57b59ee4",
+          ""
+        ],
+        [
+          "solder_mask_bridge|229250000|75337250|360d833f-01bb-49d2-8d75-d08e621efe90|22fdadd6-db25-4d36-8924-235471568f9b",
+          ""
+        ],
+        [
+          "solder_mask_bridge|229250000|75337250|360d833f-01bb-49d2-8d75-d08e621efe90|aaad81f3-0502-4fd2-b702-9f2424a93adb",
+          ""
+        ],
+        [
+          "solder_mask_bridge|229677250|79898750|736f4113-d047-4ccc-adf4-e00619d23949|b7963f70-ce14-4bb7-bbd0-706c4b4eb13b",
+          ""
+        ],
+        [
+          "solder_mask_bridge|229864750|82788750|f9d46500-4739-4e1c-95c7-d8d573f61f1a|c0a52972-6d03-439c-88bb-62b462a6b353",
+          ""
+        ],
+        [
+          "solder_mask_bridge|230437250|45500000|04b21da6-6c9e-4692-83c3-fbddcfc9c121|bb94c539-91f5-49d4-b347-3bc953917503",
+          ""
+        ],
+        [
+          "solder_mask_bridge|230437250|46405000|04b21da6-6c9e-4692-83c3-fbddcfc9c121|7145fa0e-9b89-43b1-96bb-1e4458e384f3",
+          ""
+        ],
+        [
+          "solder_mask_bridge|230462250|73745000|360d833f-01bb-49d2-8d75-d08e621efe90|4b5d45cb-0501-43a6-8946-ab58f169d292",
+          ""
+        ],
+        [
+          "solder_mask_bridge|230462250|74650000|360d833f-01bb-49d2-8d75-d08e621efe90|98c6c3ad-4953-40bd-abe1-979db71b5bf1",
+          ""
+        ],
+        [
+          "solder_mask_bridge|232754750|79898750|9588551c-a6bf-4f97-9b4d-91fe66176a88|85025bce-13f9-45a8-9176-a93a046f196f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|232754750|82601250|c83ccffc-4535-4f80-8625-a54c6071ec74|186f5d05-752c-497e-8e24-054ae51ea9ee",
+          ""
+        ],
+        [
+          "starved_thermal|223500000|66600000|46b8d045-ca42-4dc9-b694-b002de476b22|73493edf-7766-42de-86db-c5ac46a83a96|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -107,6 +192,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -547,6 +633,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -593,10 +680,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "40W SMPS.step",
       "svg": "",
       "vrml": ""
     },
@@ -604,7 +691,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "..\\..\\bom\\40W SMPS.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -656,6 +743,18 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "digikey",
+          "name": "digikey",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
@@ -666,12 +765,354 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Average Rectified Current (Io)",
+          "name": "Average Rectified Current (Io)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CUI_purchase_URL",
+          "name": "CUI_purchase_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Class",
+          "name": "Class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Critical Parameter",
+          "name": "Critical Parameter",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Forward Voltage (Vf@If)",
+          "name": "Forward Voltage (Vf@If)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IC Reference",
+          "name": "IC Reference",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IOut1 (A)",
+          "name": "IOut1 (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IOut1 (mA)",
+          "name": "IOut1 (mA)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IOut2 (A)",
+          "name": "IOut2 (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IOut3 (A)",
+          "name": "IOut3 (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IOut4 (A)",
+          "name": "IOut4 (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ISAT (A)",
+          "name": "ISAT (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L (µH)",
+          "name": "L (µH)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LS (µH)",
+          "name": "LS (µH)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer URL",
+          "name": "Manufacturer URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Match Code",
+          "name": "Match Code",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Minimum Qty",
+          "name": "Minimum Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Technology",
+          "name": "Mounting Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature",
+          "name": "Operating Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Peak Forward Surge Current",
+          "name": "Peak Forward Surge Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Process",
+          "name": "Process",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Published Date",
+          "name": "Published Date",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rectified Current",
+          "name": "Rectified Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse Leakage Current (Ir)",
+          "name": "Reverse Leakage Current (Ir)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse Voltage (Vr)",
+          "name": "Reverse Voltage (Vr)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Stock",
+          "name": "Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VIN",
+          "name": "VIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOut1 (V)",
+          "name": "VOut1 (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOut2 (V)",
+          "name": "VOut2 (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOut3 (V)",
+          "name": "VOut3 (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOut4 (V)",
+          "name": "VOut4 (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VT (V (AC))",
+          "name": "VT (V (AC))",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vaux (V)",
+          "name": "Vaux (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "n",
+          "name": "n",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Attrition Qty",
+          "name": "Attrition Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
